@@ -1,0 +1,136 @@
+body {
+    margin: 50px;
+    font-family: montserrat;
+    background-color: #111;
+    color: #fff;
+}
+.para{
+    max-width: 800px;
+}
+
+nav {
+    background-color: #ffb300;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.F1{
+    margin: 50px;
+    ;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav {
+    position: fixed;
+    width: 99%;
+    top: 0;
+    left: 0;
+    background: #ffb300;
+    padding: 15px;
+}
+
+.hero {
+    margin-top: 60px; 
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero, .contact {
+    align-items: flex-start;
+}
+
+.btn {
+    background-color: #ffb300;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 140px;
+}
+
+.contact form {
+margin: 50px;
+width: 1000PX;
+
+}
+
+.contact input {
+    width: 100%;
+    padding: 10px;
+    margin :10px 0;
+    border: 2px solid #ffb300;
+    border-radius: 25px;
+    background: black;
+    color: white;
+    align-items: LEFT;
+
+}
+
+.inline-inputs {
+    display: block;
+    gap: 10px;
+    width:1000px
+
+}
+
+.inline-inputs input {
+    width: 700px;
+}
+
+.table-section {
+    padding: 10px;
+}
+img{
+    display: inline;
+    width:fit-content;
+    margin-left: 60%;
+    height: 500px;
+}
+table {
+    width: 50%;
+   margin: 50px;
+    border-collapse: collapse;
+    border: 2px solid #ffb300;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ffb300;
+    text-align: left;
+}
+
+th {
+    background-color: #222;
+}
+
+tr:last-child {
+    background-color: #ffb300;
+    color: black;
+}
+
